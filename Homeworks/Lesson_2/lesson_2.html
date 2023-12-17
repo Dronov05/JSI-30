@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main id="target" class="target" name="target"></main>
+    <article></article>
+    <footer></footer>
+    <script>
+      const main1 = document.querySelector('.target')
+      const main2 = document.getElementById('target')
+      const main3 = document.body.firstElementChild.nextElementSibling
+      console.log('main1', main1)
+      console.log('main2', main2)
+      console.log('main3', main3)
+
+      /*
+       Необходимо найти и записать в переменную узел-элемент <main></main> всеми возможными способами
+
+       Например : 
+
+       const main1 = "Ваш код"
+       console.log('main1', main1);  // output: "main1" <main id="target" class="target" name="target"></main>
+
+       const main2 = ...
+       console.log('main2', main2);  // output: "main2" <main id="target" class="target" name="target"></main>
+
+       и т. д.
+
+       Важно : Если решаем идти по узлам с корня документа, то идем только по кратчайшему пути
+      */
+    </script>
+  </body>
+</html>
